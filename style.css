@@ -1,0 +1,50 @@
+#wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+#aside {
+    width: 20%;
+    background-color: rgb(118, 131, 131);
+}
+
+#main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+#nav {
+    height: 15%;
+    background-color: aqua;
+}
+
+#parte-centrale {
+    display: flex;
+    min-height: 85%;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+#container {
+    margin: auto;
+    background-color: blueviolet;
+    width: 60%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cerca {
+    margin-bottom: 50px;
+}
+
+#container-bottone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
